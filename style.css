@@ -1,0 +1,72 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally in the column */
+    width: 100%; /* Ensures main takes full width */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.title {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+    font-size: 5vh;
+    color: #000;
+    font-family: 'Bebas Neue';
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #000;
+}
+
+.intro {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 2vh;
+}
+
+.setting-the-stage {
+    
+    text-align: center;
+    margin: 20px;
+    margin-right: 100px;
+    margin-left: 100px ;
+    font-size: 20px;
+}
+.orm-diagram {
+padding: 20px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.explanation {
+    margin: 1vh;
+    width: 50%;
+    font-size: 33px;
+}
+.giphy_overlay{
+    background-color: #000;
+    position: relative;
+    width: 500px;
+    height: 271px;
+}
+.overlay {
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    width: 100%; /* Cover the full width of the gif */
+    height: 100%; /* Cover the full height of the gif */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Adjust text color as needed */
+    font-size: 30px; /* Adjust font size as needed */
+    /* Add more styling as needed */
+}
